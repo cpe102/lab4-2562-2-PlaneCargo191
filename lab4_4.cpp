@@ -26,9 +26,11 @@ void printString2(string s1, string s2, int N){
 int main()
 {
 	int count = 0;
-	while(count < 10){
-		//Edit code here using printString1() and printString2()
-		
+	while(count < 10)
+	{
+		printString1("5", 9-count);
+		printString2("6", "9", count);
+		cout<<"\n";
 		count++;
 	}
     return 0;
